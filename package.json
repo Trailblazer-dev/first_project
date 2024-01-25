@@ -17,9 +17,9 @@
     "generate": "dfx generate first_project_backend"
   },
   "dependencies": {
-    "@dfinity/agent": "^",
-    "@dfinity/candid": "^",
-    "@dfinity/principal": "^"
+    "@dfinity/agent": "^0.15.3",
+    "@dfinity/candid": "^0.15.3",
+    "@dfinity/principal": "^0.15.3"
   },
   "devDependencies": {
     "assert": "2.0.0",
@@ -45,5 +45,8 @@
     "last 2 firefox version",
     "last 2 safari version",
     "last 2 edge version"
-  ]
+  ],
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC"
 }
